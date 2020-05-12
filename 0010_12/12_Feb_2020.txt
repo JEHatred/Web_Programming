@@ -1,0 +1,53 @@
+FUNCIONES Y MODLOS
+
+- Function expressions
+- Arrow functions
+- Strings literals
+- First class-functions
+- Function expression on the fly
+- Refactor
+- Code review
+
+_________________________________________________
+
+FIRST CLASS FUNCTION
+
+-Las funciobnes son un objeto y las puedo mover como objetos
+-Todo lo que se puede hacer como un dato lo puedes hacer como una funcion
+-Meterlo en paramteros, en vectores, en variables etc etc etc
+-Se puede guardar un valor de funcion en una variable, y se puede guardar una funcion en las variables para ejecutarlas
+-Declarar variable para imprimir, pasar vaor etc
+
+_________________________________________________
+
+REFACT
+
+-Volver a escribir o reescribir un codigo que funciona pero mas bonito
+
+_________________________________________________
+
+FUNCTION EXPRESSION
+
+-Line 7 ./Funciones/app.js
+
+_________________________________________________
+
+FUNCTION EXPRESSION ON THE FLY
+
+-Si una funcion la voy a pasar como paramteros
+-No reservar espacio en memoria (variable)
+
+
+////////////////////////////////////////////////
+
+MODULOS
+
+-Fragmentos de codigo por separado
+-Nada es accesible hasta que yo lo requiero
+-Solo se tiene acceso a lo que el modulo da acceso (Encapsulamiento)
+-Module Patterns, patrones definidos que hya que aprender 
+    -Export
+        -Funciones
+        -objeto
+        -constante
+-module.export= Es para exportaar algo de un modulo a la clase principal y poder llamrlo desde esta 

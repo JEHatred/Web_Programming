@@ -1,0 +1,38 @@
+-Object literals
+-Module Patterns
+-Template strings
+-Tempolation string
+
+__________________________________________
+
+OBJECT LITERALS
+
+-Objeto JSON
+    JSON = Javascript, Object, Notation
+
+-Objeto: collecion de name/value pairs
+-Objeto vacio: var y = {};
+    sin tener clases, constructores, etc.
+    permite tener mas objetos dentro 
+    un objetos con mas objetos
+    Se accede a sus keys mediante la notacion del punto ":"
+    es decir: y.keys
+    Tambien se puede acceder como y['nombre']
+    name: value
+    key: value
+
+__________________________________________
+
+MODULE PATTERNS
+
+module.exports = Que es elo que exporta
+                Una funcion
+                Un metodo
+                Un objeto
+                Un contrusctor
+Pasos
+1.-El modulo exporta
+2.-El main hace require
+3.-Guardo en una variable
+
+let name = require

@@ -1,0 +1,35 @@
+FORMAS DE CREAR OBJETOS - Object.create
+
+var obj = {}; //Object literal
+var obj = new Person();
+var obj = Object.create(objectliteral) //Toma como parametro un object literal
+
+___________________________________________________________________________________
+
+FORMA DE HEREDAR
+
+Modulo nativo "util"
+-Permite combinar la funcionalidad de 2 objetos
+-util.inherist(parametro, clase)
+
+___________________________________________________________________________________
+
+Emisor de eventos ON
+- Emisor lee y ejecuta eventos, funciones
+
+___________________________________________________________________________________
+
+.call
+-Escritua de un metodo que puede ser usada en cualquier objeto
+-Las funciones en JS son objetos
+-Call acepta una lista de argumentos (this, asd, asd, ads, asd, asd)
+-LLama a una funcion con valor this 
+*Envia los argumentos como lista
+
+function greet(){}
+
+greet.call();
+
+.apply
+-Lo mesmo
+*Envia los argumento como un vector

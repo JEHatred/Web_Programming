@@ -1,0 +1,62 @@
+Heroku.com
+
+Plataforma de despliegue de aplicaciones
+Proporciona un dashboard para crear aplicaciones
+
+Requerimientos en Local
+
+-Heroku CLI settings
+-Create Heroku app
+-Remote repo setting
+-Port setting
+-Git init
+-NPM init
+-.gitignore
+-package.json
+
+CMD:
+-heroku login
+-presionar enter
+-Iniciar sesion en Heroku browser (Volver a cmd)
+Linea de comando de la carpeta de trabajo
+ENtrar al disco duro con D:> F:
+Acceder al directoio
+git initnpm init -y
+
+Las variables de ambiente funcionan solo cuando se hace un depliy y son en mayusculas
+
+.gitignore: 
+node_modules //Ignora los modulos y dependencias del local porque heroku ya las tiene y gitignore las omite a la hora de empujar
+             //Asi se llama la carpeta donde estan todos los modulos
+
+packahe.json:
+
+en el codigo: 
+{
+  "name": "HTTP",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"                                         //Esta linea de aqui
+  },
+
+  Se agrega la linea 7 (el value script) y se pone start con el nombre del archivo que va a iniciar
+
+CMD:
+
+git status                                  Seguimiento de lo que se puede subir
+git add .                                   Subir todo lo de esa carpeta
+git commit -m "mensaje"                     Agregar un commit
+git status                                  Muestra nuevamente lo que estan por subirse, es decir, nada
+
+git remote -v                               Aun no debe mostrar nada
+Vamos por el url del repo de heroku
+git remote add heroku URL                   Asociamos aunque no devuelva nada
+git remote -v                               Debe aparecer el url del repo          
+
+git push heroku master                      Empuja al repositorio maestro a la rama maestra
+
+regresar al codigo y cambiar la variable del puerto local por la vaiable de entorno
+
+Volver a agregar cambios con los comandos de las lineas 48 a la 51 y hacer push

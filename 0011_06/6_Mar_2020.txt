@@ -1,0 +1,11 @@
+78ce1f1f4a6b6b19384821f422c46484
+
+Cada que se hace nmp init -y se instala el paquete "package.json"
+
+npm i fahrenheit-to-celsius
+
+json:true hace el parse por mi, s debe quitar
+
+Restful API contestan JSON
+
+?lang=es al final de la url es quien convierte los datos en español

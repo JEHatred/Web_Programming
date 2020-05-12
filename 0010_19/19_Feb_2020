@@ -1,0 +1,63 @@
+EVENETOS
+
+- No hay una clase "Eventos" como tal, si no que son creados a conveniencia
+- Web server tiene un "Event emmiter", un emisor de Eventos
+- Express es un emisor de eventos que esta basado en un ARRAY DE FUNCIONES
+    - let app = express();
+    
+    - app.get('/user', (res, req) => { 
+        res.send('Hola');
+    });
+
+    - app.listen(3000); escucha el puerto 3000
+
+    localhost:3000/user
+    Hola
+
+- Cuando alguien llegue a /user se va a ejecutar lo que esta despues 
+- Existen 2 tipos de eventos    
+    - El nucleo de C++ 
+        - Eventos del sistema, comom crear, editar, eliminar archivos, considerados como punteros)
+        - Interactua con el sistema operativo y regresa algo
+    - El nucleo de JS
+        - Creacion de funciones tipicas
+        - Adicion de handlers al contenido
+        - Interactua con el usuario
+
+
+______________________________________________________________________________________________________________________________________
+
+PROTOTIPOS
+
+- Los objetos en JS tiene la propiedad "proto" que apunta a otro objeto, su PROTOTIPOS
+- Se puede acceder a las propiedades de un prototipo con la notacion del punto
+- Cadena de prototipos
+
+
+______________________________________________________________________________________________________________________________________
+
+ARRAY DE FUNCIONES
+
+- Se puede acceder
+- Puede guardar diferentes tipos de cosas
+- Se colocaran funciones en un vector
+
+#######################################################################################################################################
+
+HOISTING
+Vaya a "prueba.js"
+Independientemente donde se declare las funciones o variables son bien ejecutadas aunque sean declaradas despues de ejecutarlas
+
+Funciones regulares
+function name(){}
+Cuando mandamos un constructor 
+- Aplica el hoisting
+- Aplica this
+- No para callback (Mandar una funcion como parametro)
+
+Arrow functions
+()=>{}
+- No aplica hoisting
+- this no es alcansable
+- Favoritas para callback 
+

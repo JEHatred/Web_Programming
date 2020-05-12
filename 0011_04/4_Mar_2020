@@ -1,0 +1,42 @@
+HTTP
+- Request y response existen en node js, esta implementando el protocolo
+- El lenguaje se adapta al protocolo
+
+HTTPS
+- Existe una llave privada que permite el acceso a la informacion que se transporta de manera cifrada
+
+WEB BROWSER
+- Interpreta HTML
+- HTML es inmutable
+
+PARSING
+- Capa intermedia de 
+- Body_parser (NPM)
+- Trae los parametros en:
+    - La URL (.params)
+    - Body (body.asdads) //Parametros no a la vista, para agregar body.x se necita el body parse, o manda undefined
+
+_______________________________________________________________________________________________________________________________
+
+Request
+1.- Get/Post/Put [Recurso (Que es lo que se quiere)] //"Por este metodoo quiero este recurso"
+2.- Header
+3.- 
+4.- Body //Esta vacio
+
+Response
+1.-
+2.- Address
+3.- 
+4.- Body //Va lleno de text
+
+_______________________________________________________________________________________________________________________________
+
+2 Formas basicas de un servidor en js
+
+1.- "A la braba como valiente con el chile entre los dientes"
+2.- Con express
+    - Se depende de express
+    - Su vulnerabilidad tambien son las de tu server
+    - Command line: npm init -y
+                    npm i http
