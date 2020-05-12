@@ -1,0 +1,45 @@
+NodeJS se abastece de paquetes en NPMJS (Node package manager) (npmjs.com)
+
+Utilizar paquetes descargados y actualizados recientemente
+
+express en NPM se usa para crear servidores web... servidor web popular para nodeJS
+
+Con Usage: Se necesita copiar y pegar el codigo que aoarece en la pagina, lo ejecutamos y funcionara
+Con Install: Se requiere de la ejecucion del comando que provee la pagina del paquete para instalarlo	
+
+VSCode y plugins:
+	- Prettier :) - Ayuda con la identacion automaticamente
+	- Bracket Pair colorizer - Ayuda a la identificacion de apertura y cierre de llaves, corchetes y parentesis
+
+_________________________________
+
+Crear carpeta de trabajo
+git init
+carpeta para el dia
+npm init -y
+Abrir carpeta con visual studio code
+Buscar archivo package.json
+Buscar "Random Names" en NPMJS
+Instalar cualquier paquete (Se instala en la terminal)
+Crear archivo App.js
+copiar y pegar el ussage en App.js
+Ir a linea de comando en la carpeta trabajada
+node App.js
+git status
+git diff
+git add .
+git commit -m "Commit inicial"
+git status
+_________________________________
+Objetos .json
+
+Key: value pairs
+
+_________________________________
+
+NodeModules:
+Mirar y borrar
+
+_________________________________
+
+65535 puertos en una PC
